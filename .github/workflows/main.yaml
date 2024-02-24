@@ -29,7 +29,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-        images: merlinus1/otus-ma-2023-12
+          images: merlinus1/otus-ma-2023-12
       -
         name: Build and push
         uses: docker/build-push-action@v5
