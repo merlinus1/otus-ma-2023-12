@@ -10,8 +10,7 @@ COPY pyproject.toml /app
 
 WORKDIR /app
 
-RUN pip install poetry==1.6.1
-RUN poetry install --only main
+RUN pip install --no-cache-dir poetry==1.6.1 && poetry install --only main
 
 
 FROM python:${PYTHON_VERSION}-slim
