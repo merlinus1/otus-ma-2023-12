@@ -1,0 +1,36 @@
+#### Python ####
+*.py[co]
+################
+
+#### Backups ####
+~*
+#################
+
+#### Local files ####
+local
+djangobb_index/
+config/development.py
+config/sphinxsearch/my_sphinx.conf
+/static_files/
+/static
+media
+#####################
+
+/.idea
+/static
+/virtual
+/build
+/dist
+/data
+/.env
+.coverage
+codeclimate.json
+report.xml
+coverage.xml
+/dev/*/*.msi
+/dev/*/*.tgz
+/dev-services/nss/Russian.Post.MARS.NSS
+/dev/refbooks/refbooks
+test.db
+embedded-settings.json
+var.env
