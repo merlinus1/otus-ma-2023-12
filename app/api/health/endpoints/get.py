@@ -4,7 +4,7 @@ from starlette.responses import JSONResponse
 router = APIRouter()
 
 
-@router.get("/health")
+@router.get("/health/")
 async def get_health() -> JSONResponse:
     """
     Заглушка метода health
